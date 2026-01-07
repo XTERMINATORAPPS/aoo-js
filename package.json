@@ -1,0 +1,43 @@
+{
+    "name": "aoo-js",
+    "version": "1.0.0",
+    "description": "Pure JavaScript implementation of the AOO (Audio over OSC) v2 protocol for real-time audio streaming",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "node test/aoo-source.test.js",
+        "example": "node examples/basic-stream.js"
+    },
+    "keywords": [
+        "aoo",
+        "audio",
+        "osc",
+        "udp",
+        "streaming",
+        "real-time",
+        "max-msp",
+        "maxmsp",
+        "puredata",
+        "pd",
+        "audio-streaming",
+        "ableton",
+        "max-for-live"
+    ],
+    "author": "XTERMINATORAPPS",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xterminatorapps/aoo-js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/xterminatorapps/aoo-js/issues"
+    },
+    "homepage": "https://github.com/xterminatorapps/aoo-js#readme",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "files": [
+        "src/",
+        "README.md",
+        "LICENSE"
+    ]
+}
